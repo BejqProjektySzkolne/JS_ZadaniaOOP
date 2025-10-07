@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zad 7</title>
+</head>
+<body>
+<h2>Rejestracja użytkownika</h2>
+
+<form id="formularzUzytkownika" onsubmit="event.preventDefault(); zarejestrujUzytkownika();">
+    <input type="text" id="imie" placeholder="Imię" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="haslo" placeholder="Hasło" required>
+    <button type="submit">Zarejestruj</button>
+</form>
+
+<div id="listaUzytkownikow"></div>
+
+<script src="index.js"></script>
+</body>
+</html>
